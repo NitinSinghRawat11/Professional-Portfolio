@@ -1,16 +1,21 @@
-# React + Vite
+Technical Stack & Architecture
+Frontend Engine: Engineered with React.js for component-based modularity and state-managed UI transitions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Styling Architecture: Built using Tailwind CSS v4, utilizing a mesh-gradient design system with custom CSS keyframe animations for high-fidelity background graphics.
 
-Currently, two official plugins are available:
+Build Tooling: Optimized via Vite for lightning-fast Hot Module Replacement (HMR) and production-ready asset bundling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vector Integration: Incorporates Lucide-React for a scalable, lightweight SVG-based iconography system.
 
-## React Compiler
+Deployment Pipeline: Fully integrated with Firebase Hosting for low-latency global content delivery and secure SSL termination.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 Core Features & Implementation Details
+Dynamic Component Rendering: Implements a centralized data-driven architecture (userData object) to ensure a separation of concerns between content and presentation layers.
 
-## Expanding the ESLint configuration
+Asynchronous UX Interactions: Featuring a functional Mailto protocol integration for direct SMTP client triggering and a Programmatic File Access system for seamless resume viewing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive Layout Engine: Utilizes Tailwind’s utility-first classes to maintain layout integrity across diverse viewport breakpoints (Desktop, Tablet, Mobile).
+
+Navigation Logic: Employs a Smooth Scroll DOM implementation with intersection-aware active state management.
+
+External API & Link Integration: Secure integration of external assets including a Google Drive-hosted video production repository and professional social graph connections.
